@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0; /*Fundo cinza claro*/
+    height: 100vh;
+}
+ 
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.caixa {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: #000000;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+  
+.info-container {   
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Nome Sobrenome - Eduarda Barth */
+.informacoes h2{
+    margin-bottom: 7px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* Desenvolvedor Fullstack.*/
+.informacoes p {
+    margin-bottom: 8px;
+    margin-top: 5px; 
+    font-size: 1em;
+    text-align: left;
+}
+
+.botoes {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+}
+
+.botoes button {
+      background-color: #4db150;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      flex: 1;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 500px) {
+    .info-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .avatar {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .informacoes {
+      align-items: center;
+      width: 100%;
+    }
+  
+    .informacoes h2,
+    .informacoes p {
+      text-align: center;
+    }
+  
+    .botoes {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .botoes button {
+      width: 100%;
+      max-width: 300px;
+    }
+}
+  
