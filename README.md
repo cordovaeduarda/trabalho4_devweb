@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/25a57fb9-2344-44a6-94f0-9835f172b848)# trabalho4_devweb
+# trabalho4_devweb
 Trabalho 4 de Desenvolvimento para Web
 
 O trabalho 4, que foi o trabalho avaliativo do grau A, consistia em codificar o layout apresentado pelo professor, respeitando a responsividade.
